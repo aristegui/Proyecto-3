@@ -15,6 +15,7 @@
 
 			foreach ($productos->children() as $producto){
 				echo '<tr>';
+			
 				echo '<td>' . $producto->attributes()->vendedor . '</td>';
 				echo '<td>' . $producto->articulo->a . '</td>';
 				echo '<td>' . $producto->itemBody->p . '</td>';

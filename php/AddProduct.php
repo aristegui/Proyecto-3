@@ -23,7 +23,7 @@
 		}
 	
 		elseif (strlen($_GET['tipodeproducto'])<5) {
-			echo("<script>alert('El producto ha de tener al menos 10 caracteres')</script>");
+			echo("<script>alert('El producto ha de tener al menos 5 caracteres')</script>");
 			echo("<script>window.location = 'ProductsForm.php?mail=$mail'</script>");
 		}
 			

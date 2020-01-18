@@ -22,8 +22,6 @@
 		echo "<span><a href='Layout.php?mail=$mail'>Inicio</a></span>";
 		echo "<span><a href='ProductsForm.php?mail=$mail'>Insertar productos</a></span>";
 		echo "<span><a href='ShowXmlProduct.php?mail=$mail'>Catálogo de productos</a></span>";
-
-		//<!--echo "<span><a href='HandlingProductosAjax.php?mail=$mail'> Catálogo/Insercción productos</a></span>";-->
 		echo "<span><a href='Credits.php?mail=$mail'>Creditos</a></span>";
     }else{
 		echo '<span><a href="Layout.php">Inicio</a></span>';
